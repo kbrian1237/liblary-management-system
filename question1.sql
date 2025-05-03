@@ -1,5 +1,8 @@
--- Drop tables if they exist
-DROP TABLE IF EXISTS Borrowings, Books, Authors, Members;
+-- Create the database
+CREATE DATABASE LibraryDB;
+
+-- Use the database
+USE LibraryDB;
 
 -- Authors Table
 CREATE TABLE Authors (
